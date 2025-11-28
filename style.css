@@ -1,0 +1,106 @@
+/*Margin of the body is set to 0, because the web page will be displayed in full width*/
+.body
+{
+  margin : 0;
+}
+
+/*This styling for the header part, where the title, sub titles will be placed, the texts within the header will be center aligned*/
+.header
+{
+  padding-top : 5px;
+  background-color : lightyellow;
+  text-align : center;
+  padding-bottom : 10px;
+}
+
+/*This is the styling for the main heading, the name of the travel agency*/
+.heading
+{
+  font-family : Waree;
+  font-size : 34px;
+  font-weight : bold;
+  color : #9ff20f;
+}
+
+/*Styling for the sub heading, means the text-size of the element will be smaller than the heading text*/
+.sub_heading
+{
+  font-family : Likhan;
+  font-size : 26px;
+  font-weight : bold;
+  letter-spacing : 4px;
+  color : navy;
+}
+
+/*In this styling the text of the element will be appear in smaller size than the sub heading*/
+.sub_heading_2
+{
+  font-family : Abyssinica SIL;
+  font-size : 18px;
+  font-weight : bold;
+  letter-spacing : 2px;
+  color : tomato;
+}
+
+/*This styling is for the contact details*/
+.small_heading
+{
+  padding-top : 5px;
+  font-family : Jamrul;
+  font-size : 12px;
+  font-weight : bold;
+  letter-spacing : 3px;
+  color : navy;
+}
+
+/*With this class, the element will be act as a flex container, and the direct child element of the elemnt will be the flex-items*/
+.flex_container
+{
+  display : flex;
+  flex-direction : row;
+}
+
+/*The div element containing the navigation will hold 20% width of 100%*/
+.nav_div
+{
+  width : 20%;
+  background-color : #f0f0f0;
+  box-shadow : 2px 5px 6px blue;
+  border-radius : 10px;
+}
+
+
+/*Styling for the text within the ul tag, the vertical navigation*/
+.nav_text
+{
+  font-size : 29px;
+  font-family : Dyuthi;
+  text-decoration : none;
+}
+
+/*To give some space between 2 options of the navigation, the margin is applied*/
+.nav_margin
+{
+  margin-top : 12px;
+}
+
+/*The div element containing the body part where the packages will be displayed according to the navigation, will hold 80% width of 100%*/
+.body_div
+{
+  width : 80%;
+  margin-left : 15px;
+  background-color : #f0f0f0;
+  box-shadow : 2px 5px 6px blue;
+  border-radius : 10px;
+}
+
+/*This styling will be applied on all the div of the tour packeges, to display them equally in height, width, border*/
+.tour_div
+{
+  margin : 50px;
+  width : 400px;
+  height : 320px;
+  box-shadow : 2px 5px 6px blue;
+  border-radius : 10px; 
+  text-align : center;
+}
