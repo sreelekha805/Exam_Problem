@@ -69,6 +69,11 @@
   border-radius : 10px;
 }
 
+.nav_position
+{
+  position : sticky;
+  top : 0;
+}
 
 /*Styling for the text within the ul tag, the vertical navigation*/
 .nav_text
